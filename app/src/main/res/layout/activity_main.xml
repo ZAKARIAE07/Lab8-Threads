@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/txtStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Statut : prêt"
+        android:textSize="16sp"
+        android:paddingBottom="12dp"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:progress="0"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="16dp"
+        android:src="@mipmap/ic_launcher"
+        android:contentDescription="image"/>
+
+    <Button
+        android:id="@+id/btnLoadThread"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Charger image (Thread)"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/btnCalcAsync"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcul lourd (AsyncTask)"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/btnToast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Afficher Toast"
+        android:layout_marginTop="8dp"/>
+
+</LinearLayout>
