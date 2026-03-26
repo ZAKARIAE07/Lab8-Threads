@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Lab Threads AsyncTask</string>
+    <string name="btn_test_jni">Tester JNI</string>
+    <string name="ui_reactive">UI réactive ✓</string>
+    <string name="status_loading_thread">Statut : chargement image (Thread)...</string>
+    <string name="status_loaded_thread">Statut : image chargée ✓ (Thread)</string>
+    <string name="status_calculating_async">Statut : calcul lourd (AsyncTask)...</string>
+    <string name="status_finished_async">Statut : calcul terminé ✓ résultat = %1$d</string>
+    <string name="jni_error">Erreur JNI : %1$s</string>
+    <string name="jni_result_format">%1$s\nFact(5)=%2$d\nReverse(\'Android\')=%3$s\nSum([1..5])=%4$d</string>
 </resources>
